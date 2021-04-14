@@ -4,6 +4,10 @@ date: 2021-04-12
 tags: post-mortem
 ---
 
+All services hosted on our Kubernetes cluster on Google Cloud became inaccessible.
+
+READMORE
+
 # Date
 2021-04-14
 
