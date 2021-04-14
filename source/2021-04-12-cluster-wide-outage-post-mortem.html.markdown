@@ -31,7 +31,7 @@ Trading and remittance activity halted, possibly no revenue lost because these w
 We did not figure out the root cause (exactly why the issue started without us changing anything, and why updating Traefik, our load balancer, fixed the issue). Before upgrading, Traefik was at version 1.7.9. We updated it to the latest 1.7 version, 1.7.30. Looking at the the logs, we saw many of [these errors](https://console.cloud.google.com/logs/query;cursorTimestamp=2021-04-14T03:12:54.520817Z;query=resource.type%3D%22k8s_container%22%20resource.labels.cluster_name%3D%22bloom-general%22%20resource.labels.namespace_name%3D%22kube-system%22%20resource.labels.container_name%3D%22lb-traefik%22%0Atimestamp%3D%222021-04-14T03:12:53.515318Z%22%0AinsertId%3D%224gesh6fv4xtw1%22;timeRange=2021-04-14T03:12:57.842Z%2F2021-04-14T03:12:57.842Z--PT1H?project=bloom-general):
 
 ```
-Failed to list *v1.Service: v1.ServiceList.Items: []v1.Service: v1.Service.ObjectMeta: v1.ObjectMeta.readObjectFieldAsBytes: expect : after object field, but found p, error found in #10 byte of
+Failed to list *v1.Service: v1.ServiceList.Items
 ```
 
 RT intuits that newly deployed Kubernetes services used some new API format that Traefik could not read. We did not, however, change the Kubernetes cluster version.

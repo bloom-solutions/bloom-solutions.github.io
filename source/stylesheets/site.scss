@@ -47,10 +47,14 @@
     }
   }
 
+  pre {
+    @apply overflow-x-auto;
+  }
+
   code {
-    @apply text-red-800;
-    @apply bg-gray-200;
-    @apply my-2;
+    @apply leading-4;
+    @apply text-white;
+    @apply bg-gray-700;
     @apply text-xs;
     @apply font-mono;
   }
