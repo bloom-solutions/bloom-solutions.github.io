@@ -15,7 +15,7 @@ READMORE
 Ramon Tayag
 
 # Status
-Complete, with pending action items
+Complete
 
 # Summary
 On April 14, 2021, at about 9:40am, all services hosted on our Kubernetes cluster on Google Cloud became inaccessible. Because no direct action on the engineering's end triggered it, we had a difficult time pinpointing the issue and deploy a fix.
@@ -44,9 +44,9 @@ Monitoring service pinged Slack and RT's phone (registered as a device in Google
 
 # Action Items
 
-| Action Item                                 | Type    | Owner | Bug |
-|---------------------------------------------|---------|-------|-----|
-| Update SOP: keep server software up to date | process | RT    | n/a |
+| Action Item                                                                                                                                                                           | Type    | Owner | Bug |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------|-----|
+| [Update SOP: keep server software up to date](https://docs.google.com/document/d/1oVrZv9MdrBH2BPVSIOFk2iB1ckoCVp-Jvxlv72pwgJY/edit?skip_itp2_check=true&pli=1#heading=h.7sc12qlvota6) | process | RT    | n/a |
 
 # Lessons Learned
 
