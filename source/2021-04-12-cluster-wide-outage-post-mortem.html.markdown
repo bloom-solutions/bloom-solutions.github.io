@@ -43,11 +43,13 @@ Upgrading Traefik to 1.7.30
 Monitoring service pinged Slack and RT's phone (registered as a device in Google Cloud Monitoring)
 
 # Action Items
+
 | Action Item                                 | Type    | Owner | Bug |
 |---------------------------------------------|---------|-------|-----|
 | Update SOP: keep server software up to date | process | RT    | n/a |
 
 # Lessons Learned
+
 ## What went well
 - Notified early: we got notified ahead of time that something was wrong when BXA staging broke. We had time to rule other things out and detect patterns.
 
