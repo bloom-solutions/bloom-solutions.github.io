@@ -61,8 +61,8 @@ Monitoring service pinged Slack and RT's phone (registered as a device in Google
 
 # Timeline
 - 2021-04-13
-  - 4:16: Cecille Manalang (CM) deploys bloom21/BXA staging and sees 404 when visiting the BXA staging website
-  - 4:38: CM and RT go on a call to figure out the issue
+  - 16:16: Cecille Manalang (CM) deploys bloom21/BXA staging and sees 404 when visiting the BXA staging website
+  - 16:38: CM and RT go on a call to figure out the issue
   - ~18:30: CM and RT end the call and decide to figure things out the next day
 - 2021-04-14
   - 8:30: RT resumes diagnosing the issue
