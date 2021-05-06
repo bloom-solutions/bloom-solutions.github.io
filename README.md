@@ -2,13 +2,21 @@
 
 This is a markdown application.
 
-# Quickstart
-
+# Setting up
 ```ruby
-bundle
-middleman serve
+$ bundle install
+$ yarn install
+```
+
+# Running
+```ruby
 # visit localhost:4567
+$ middleman serve
+```
+
+# Deployment
+```ruby
 # make changes to source/
 # when happy, deploy
-middleman deploy --build-before
+$ middleman deploy --build-before
 ```
